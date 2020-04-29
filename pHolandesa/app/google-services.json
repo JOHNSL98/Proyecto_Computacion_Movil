@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1069735177142",
+    "firebase_url": "https://pholandesa-9c29a.firebaseio.com",
+    "project_id": "pholandesa-9c29a",
+    "storage_bucket": "pholandesa-9c29a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069735177142:android:d8216d6e92d5ce834f6f17",
+        "android_client_info": {
+          "package_name": "com.example.pholandesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069735177142-ihoe23j4m80c6jugl17hkq2r13nu84o7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pholandesa",
+            "certificate_hash": "1edb0219da4be615241bc848b2a603da4e04b608"
+          }
+        },
+        {
+          "client_id": "1069735177142-p9q9j7oa69gi713kkjqvdk82kg52jkbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiO5ZW7FDkqGYdynq7Z97d-KkNFvvDz_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069735177142-p9q9j7oa69gi713kkjqvdk82kg52jkbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
