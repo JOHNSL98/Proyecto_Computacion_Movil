@@ -31,7 +31,6 @@
         android:textColor="@color/colorPrimaryDark"
         android:textColorHint="@color/colorPrimaryDark"
         android:textSize="17sp"
-        android:textStyle="bold"
         />
 
     <EditText
@@ -49,7 +48,6 @@
         android:textColor="@color/colorPrimaryDark"
         android:textColorHint="@color/colorPrimaryDark"
         android:textSize="17sp"
-        android:textStyle="bold"
         />
 
     <LinearLayout
@@ -71,7 +69,6 @@
             app:cbd_strokeColor="@color/colorPrimaryDark"
             android:gravity="center_vertical"
             android:textSize="16sp"
-            android:textStyle="bold"
             android:layout_marginLeft="17dp"
             />
 
@@ -82,7 +79,6 @@
             android:text="Olvidaste tu contraseña?"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="17sp"
-            android:textStyle="bold"
             android:layout_marginLeft="80dp"
             />
 
