@@ -72,8 +72,6 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
                 ValidateProductData();
             }
         });
-
-        //Toast.makeText(this, CategoryName, Toast.LENGTH_SHORT).show();
     }
 
     private void OpenGallery() {
@@ -85,10 +83,10 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (requestCode == GalleryPick && resultCode == RESULT_OK && data != null) {
+        if (requestCode==GalleryPick && resultCode==RESULT_OK && data!=null) {
             ImageUri = data.getData();
             InputProductImage.setImageURI(ImageUri);
         }
@@ -148,10 +146,10 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
                 Task<Uri> urlTask = uploadTask.continueWithTask(new Continuation<UploadTask.TaskSnapshot, Task<Uri>>() {
                     @Override
                     public Task<Uri> then(@NonNull Task<UploadTask.TaskSnapshot> task) throws Exception {
+                        Toast.makeText(AdminAddNewProductActivity.this, "Imagen del producto fue cargada exitosamente!", Toast.LENGTH_SHORT).show();
                         if (!task.isSuccessful()) {
                             throw task.getException();
                         }
-
                         downloadImageUrl = filePath.getDownloadUrl().toString();
                         return filePath.getDownloadUrl();
                     }

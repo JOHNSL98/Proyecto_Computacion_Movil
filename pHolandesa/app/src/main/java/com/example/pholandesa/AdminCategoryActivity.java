@@ -60,6 +60,15 @@ public class AdminCategoryActivity extends AppCompatActivity {
             }
         });
 
+        galletas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminCategoryActivity.this, AdminAddNewProductActivity.class);
+                intent.putExtra("category", "Galletas");
+                startActivity(intent);
+            }
+        });
+
         huevos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
