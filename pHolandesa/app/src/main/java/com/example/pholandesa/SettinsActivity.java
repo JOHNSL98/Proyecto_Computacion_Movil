@@ -16,7 +16,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.pholandesa.Prevalent.Prevalent;
-import com.google.android.gms.auth.api.signin.internal.Storage;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -105,7 +104,7 @@ public class SettinsActivity extends AppCompatActivity {
         userMap.put("phoneOrder", userPhoneEditText.getText().toString());
         ref.child(Prevalent.currentOnlineUser.getPhone()).updateChildren(userMap);
 
-        startActivity(new Intent(SettinsActivity.this, MainActivity.class));
+        startActivity(new Intent(SettinsActivity.this, HomeActivity.class));
         Toast.makeText(SettinsActivity.this, "Se actualizo la información del perfil correctamente", Toast.LENGTH_SHORT).show();
         finish();
     }
@@ -179,7 +178,7 @@ public class SettinsActivity extends AppCompatActivity {
 
                         progressDialog.dismiss();
 
-                        startActivity(new Intent(SettinsActivity.this, MainActivity.class));
+                        startActivity(new Intent(SettinsActivity.this, HomeActivity.class));
                         Toast.makeText(SettinsActivity.this, "Se actualizo la información del perfil correctamente", Toast.LENGTH_SHORT).show();
                         finish();
                     } else {
