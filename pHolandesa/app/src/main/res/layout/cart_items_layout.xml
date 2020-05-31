@@ -46,7 +46,7 @@
             android:textStyle="bold"
             android:layout_below="@+id/cart_product_name"
             android:gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             />
 
     </RelativeLayout>

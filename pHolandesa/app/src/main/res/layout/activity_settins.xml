@@ -39,7 +39,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="17sp"
                     android:textStyle="bold"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="16dp"
                     android:layout_alignParentEnd="true" />
 
             </RelativeLayout>

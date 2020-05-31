@@ -67,7 +67,6 @@ public class ProductDetailsActivity extends AppCompatActivity {
         SimpleDateFormat currentDate = new SimpleDateFormat("MMM dd, yyyy");
         saveCurrentDate = currentDate.format(calForDate.getTime());
 
-
         SimpleDateFormat currentTime = new SimpleDateFormat("HH:mm:ss a");
         saveCurrentTime = currentTime.format(calForDate.getTime());
 
